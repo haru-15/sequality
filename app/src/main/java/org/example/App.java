@@ -10,5 +10,8 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+        System.out.println(new Calculate().andsum(2,3));
+        System.out.println(new Calculate().tosum(1,10));
+        System.out.println(new Calculate().oddsum(1,10));
     }
 }
