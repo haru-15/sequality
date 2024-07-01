@@ -16,5 +16,5 @@ public class AppTest {
     public void testAppReternHelloWorld() {
         App classUnderTest = new App();
         assertEquals("Hello World!", classUnderTest.getGreeting());
-}
+    }
 }
